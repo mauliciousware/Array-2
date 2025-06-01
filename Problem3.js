@@ -2,8 +2,7 @@
 // Given an array of numbers of length N, find both the minimum and maximum. Follow up : Can you do it using less than 2 * (N - 2) comparison
 
 // ## Problem3 (https://leetcode.com/problems/game-of-life/)
-// Time Complexity :
-// Space Complexity :
+
 // Did this code successfully run on Leetcode : YES
 // Any problem you faced while coding this : 0 to 4 , 1 to 5 was very confusing
 
@@ -12,6 +11,8 @@
  * @return {void} Do not return anything, modify board in-place instead.
  */
 var gameOfLife = function(board) {
+        //**Time Complexity: O(N X M) */
+    //**Space Complexity: O(1) */
     for(let i =0;i<board.length;i++)
     for(let j=0;j<board[0].length;j++){
         //4 = 0 = dead
